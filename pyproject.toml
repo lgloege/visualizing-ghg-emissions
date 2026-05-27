@@ -1,0 +1,13 @@
+[project]
+name = "visualizing-ghg-emissions"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "jupyterlab>=4.5.7",
+    "ledgerdata",
+    "matplotlib>=3.10.9",
+    "pandas>=3.0.3",
+]
+
+[tool.uv.sources]
+ledgerdata = { git = "https://github.com/GHG-Tracker-Project/ledgerdata.git", rev = "main" }
